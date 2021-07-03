@@ -12,9 +12,9 @@ jobs:
     - name: Downloading File Ngrok...
       run: |
         Invoke-WebRequest https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
-        Invoke-WebRequest https://raw.githubusercontent.com/Jksome/mengowkwo/main/start.bat -OutFile start.bat
-        Invoke-WebRequest https://raw.githubusercontent.com/Jksome/mengowkwo/main/wallpaper.png -OutFile wallpaper.bmp
-        Invoke-WebRequest https://raw.githubusercontent.com/Jksome/mengowkwo/main/wallpaper.bat -OutFile wallpaper.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/Veloran2/vps-trial5/main/start.bat -OutFile start.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/Velorant2/vps-trial5/main/wallpaper.png -OutFile wallpaper.bmp
+        Invoke-WebRequest https://raw.githubusercontent.com/Veloran2/vps-trial5/main/wallpaper.bat -OutFile wallpaper.bat
     - name: Ekstrak Ngrok File...
       run: Expand-Archive ngrok.zip
     - name: Menyambungkan ke Ngrok...
